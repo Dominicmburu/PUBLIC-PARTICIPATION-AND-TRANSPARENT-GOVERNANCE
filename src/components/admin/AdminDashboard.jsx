@@ -15,6 +15,7 @@ import {
   FaArrowUp,
   FaArrowDown
 } from 'react-icons/fa';
+import Sidebar from '../common/Sidebar';
 
 const AdminDashboard = () => {
   const [timeFrame, setTimeFrame] = useState('week');
